@@ -3,7 +3,7 @@ email: intia@th-koeln.de
 description: >- # this means to ignore newlines until "baseurl:"
   A plattform for methods, techniques, toolkits and pattern for participative development in a social context.
 baseurl: ""
-url: "https://hthielmann.github.io/portal.intia.de/"
+url: ""
 theme: null
 # Build settings
 plugins:
