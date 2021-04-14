@@ -1,27 +1,27 @@
 style: is-light
 height: is-medium
 items:
+  - title: Prototypen
+    icon: fa-box-open
+    description: |
+      Alle mithilfe von INTIA entwickelten Prototypen.
+    call_to_action_name: Zu den Prototypen
+    call_to_action_link: /prototypes/
   - title: Technikblöcke
     icon: fa-shapes
-    description: >
+    description: |
       Eine Übersicht aller von INTIA entwickelten und genutzten Bausteine mit näheren Informationen wo diese erhältlich sind.
     call_to_action_name: Zu den Technikblöcken
     call_to_action_link: /buildingblocks/
   - title: Methoden
     icon: fa-stethoscope
-    description: >
+    description: |
       Das Methodenradar gibt einen einfachen Überblick interessanter partizipativer Methoden.
     call_to_action_name: Zum den Methoden
     call_to_action_link: /methods/
-  - title: Prototypen
-    icon: fa-box-open
-    description: >
-      Alle mithilfe von INTIA entwickelten Prototypen.
-    call_to_action_name: Zu den Prototypen
-    call_to_action_link: /prototypes/
-  - title: Glossar
-    icon: fa-book
-    description: >
-      Eine Übersicht wichtiger und relevanter Begriffe die hilfreich sind.
-    call_to_action_name: Zum Glossar
-    call_to_action_link: /glossary/
+  - title: Entwurfsmuster
+    icon: fa-route
+    description: |
+      Eine Übersicht aller von INTIA entwickelten Entwurfsmustern.
+    call_to_action_name: Zum den Entwurfsmustern
+    call_to_action_link: /design-patterns/

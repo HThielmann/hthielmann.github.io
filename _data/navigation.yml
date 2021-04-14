@@ -7,6 +7,8 @@
       link: /about/
     - name: Das Starter-Team
       link: /team/
+    - name: Glossar
+      link: /glossary/
 - name: Innovations-Koffer
   link: /innovation/
   dropdown:
@@ -18,19 +20,17 @@
       link: /maker-case/  
     - name: Innovations-Labor
       link: // 
-- name: Tools
-  link: /tools/
+- name: Technologien
+  link: /technologies/
   dropdown:
-    - name: Produkte und Werkzeuge
-      link: /tools/
+    - name: Prototypen
+      link: /prototypes/
     - name: Technikblöcke
       link: /buildingblocks/
     - name: Methoden
       link: /methods/
-    - name: Prototypen
-      link: /prototypes/
-    - name: Glossar
-      link: /glossary/
+    - name: Entwurfsmuster
+      link: /patterns/
 - name: Stories
   link: /stories/
 - name: Fachartikel

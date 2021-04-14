@@ -15,7 +15,7 @@ Es richtet sich primär an Menschen aus dem Zusammenhang der Sozialen Arbeit. Ab
 ...kann ich hier Ideen und konkrete Anleitungen finden, wie ich mit meinen Klient\*innen partizipative Technik-Entwicklung durchführen kann. Ich erfahre aber auch, wie der wissenschaftliche Hintergrund dieser Methoden aussieht.
 
 #### Als Maker\*in ...
-... kann ich hier neue Tools und Methoden zur Technik-Entwicklung finden. Diese kann ich in meiner Arbeit einsetzen, um mehr Inklusion und Partizipation zu schaffen. 
+... kann ich hier neue Technologien darunter auch Methoden zur Technik-Entwicklung finden. Diese kann ich in meiner Arbeit einsetzen, um mehr Inklusion und Partizipation zu schaffen. 
 
 #### Als Wissenschaftler\*in ...
 ... kann ich mir hier den wissenschaftlichen Hintergrund zu partizipativer, inklusive Technik-Entwicklung aneignen. 

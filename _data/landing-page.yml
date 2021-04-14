@@ -11,11 +11,11 @@ sections:
         Was sie enthalten, wie sie genutzt werden können und wo sie erhältlich sind erfährst du hier.
     image: https://via.placeholder.com/1200x800
     link: /innovation/
-  - title: Tools
+  - title: Technologien
     text: |
         Alles rund um das partizipative Entwickeln von digitalen Alltagshelfern. Technik, Methoden und wichtige Begriffe. 
     image: https://via.placeholder.com/1200x800
-    link: /tools/
+    link: /technologies/
   - title: Stories
     text: |
         Hier erfährst du, was gerade in der Community los ist. 
