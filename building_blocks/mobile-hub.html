@@ -1,0 +1,324 @@
+
+
+
+
+<!DOCTYPE html>
+<html id="default-layout" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#ffffff>
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.png" 
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Mobile Hub | Start</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Mobile Hub" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Zentraler Block der die Kommunikation zwischen allen Blöcken verwaltet und steuert" />
+<meta property="og:description" content="Zentraler Block der die Kommunikation zwischen allen Blöcken verwaltet und steuert" />
+<link rel="canonical" href="/building_blocks/mobile-hub.html" />
+<meta property="og:url" content="/building_blocks/mobile-hub.html" />
+<meta property="og:site_name" content="Start" />
+<meta property="og:image" content="https://i2.wp.com/marcel-jan.eu/datablog/wp-content/uploads/2019/11/IMG_0907a.jpg?fit=1200,836&ssl=1" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-15T12:32:52+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://i2.wp.com/marcel-jan.eu/datablog/wp-content/uploads/2019/11/IMG_0907a.jpg?fit=1200,836&ssl=1" />
+<meta property="twitter:title" content="Mobile Hub" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/building_blocks/mobile-hub.html"},"description":"Zentraler Block der die Kommunikation zwischen allen Blöcken verwaltet und steuert","url":"/building_blocks/mobile-hub.html","@type":"BlogPosting","image":"https://i2.wp.com/marcel-jan.eu/datablog/wp-content/uploads/2019/11/IMG_0907a.jpg?fit=1200,836&ssl=1","headline":"Mobile Hub","dateModified":"2021-04-15T12:32:52+00:00","datePublished":"2021-04-15T12:32:52+00:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-hidden-print is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Start
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/about_platform/" class="navbar-link ">Über die Plattform</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/about_platform/" class="navbar-item ">Über die Plattform</a>
+                            
+                            <a href="/about/" class="navbar-item ">Das INTIA-Projekt als Start</a>
+                            
+                            <a href="/team/" class="navbar-item ">Das Starter-Team</a>
+                            
+                            <a href="/glossary/" class="navbar-item ">Glossar</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/innovation/" class="navbar-link ">Innovations-Koffer</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/innovation/" class="navbar-item ">Idee</a>
+                            
+                            <a href="/basic-case/" class="navbar-item ">Basis Innovations-Koffer</a>
+                            
+                            <a href="/maker-case/" class="navbar-item ">Erweiterter Innovations-Koffer</a>
+                            
+                            <a href="//" class="navbar-item ">Innovations-Labor</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/technologies/" class="navbar-link ">Technologien</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/prototypes/" class="navbar-item ">Prototypen</a>
+                            
+                            <a href="/buildingblocks/" class="navbar-item ">Technikblöcke</a>
+                            
+                            <a href="/methods/" class="navbar-item ">Methoden</a>
+                            
+                            <a href="/patterns/" class="navbar-item ">Entwurfsmuster</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <a href="/stories/" class="navbar-item ">Stories</a>
+                    
+                
+                    
+                    <a href="/science/" class="navbar-item ">Fachartikel</a>
+                    
+                
+                    
+                    <a href="/contact/" class="navbar-item ">Kontakt</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                <a class="navbar-item" onclick=changeFontSize()>
+                    <span class="icon"><i class="fas fa-text-height"></i></span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero is-hidden-print  is-medium  is-bold is-primary" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Mobile Hub</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    
+    <section class="section ">
+        <div class="container">
+            <div class="columns is-6 is-variable">
+                
+                <div class="column is-12">
+                    
+                    
+                    
+                    <div class="columns is-multiline">
+
+    <div class="column is-6">
+        <figure class="image is-4by3">
+            <img src="https://i2.wp.com/marcel-jan.eu/datablog/wp-content/uploads/2019/11/IMG_0907a.jpg?fit=1200%2C836&ssl=1" />
+        </figure>
+    </div>
+
+    <div class="column is-6">
+        <p class="title is-3">Mobile Hub</p>
+        <p class="subtitle is-3"></p>
+        <p class="title is-4 has-text-right">50€</p>
+        
+        <p class="subtitle is-5 has-text-right">MB1</p>
+        
+
+        
+        
+    <div class="content  has-text-centered ">
+        
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+        
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+        
+        <span class="icon">
+            <i class="fas fa-star"></i>
+        </span>
+        
+        
+        
+        <span class="icon">
+            <i class="far fa-star"></i>
+        </span>
+        
+        <span class="icon">
+            <i class="far fa-star"></i>
+        </span>
+        
+    </div>
+
+        
+
+        
+        <div class="content">
+            
+            <p>
+                <span class="icon">
+                    
+                    <i class="fas fa-location-arrow"></i>
+                    
+                </span>
+                <span>Zigbee2Mqtt</span>
+            </p>
+            
+            <p>
+                <span class="icon">
+                    
+                    <i class="fas fa-grin-stars"></i>
+                    
+                </span>
+                <span>Node-Red</span>
+            </p>
+            
+            <p>
+                <span class="icon">
+                    
+                    <i class="fas fa-fighter-jet"></i>
+                    
+                </span>
+                <span>Mqtt-Broker</span>
+            </p>
+            
+            <p>
+                <span class="icon">
+                    
+                    <i class="fas fa-fighter-jet"></i>
+                    
+                </span>
+                <span>Wlan</span>
+            </p>
+            
+        </div>
+        
+    </div>
+
+    <div class="column is-12">
+        <div class="content">
+            <h1 id="mobile-hub">Mobile Hub</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris lacus, semper vel massa mattis, ullamcorper auctor libero. Maecenas sit amet ultricies erat. Curabitur eleifend est eget sagittis convallis. Mauris sit amet placerat lacus. Pellentesque vehicula quis massa ac lacinia. Vivamus gravida bibendum tincidunt. Sed eget augue vitae ligula ultricies lacinia a eget augue. Donec vulputate metus ut ante scelerisque sollicitudin. Nullam commodo suscipit venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut tristique pharetra mollis.</p>
+
+<p>Praesent ut accumsan mauris. Maecenas tempus finibus lectus, in iaculis mauris lobortis ac. Proin ipsum erat, imperdiet at arcu a, egestas hendrerit turpis. Suspendisse in lectus lacinia, sollicitudin felis non, auctor urna. Ut lacinia, ligula a cursus fringilla, diam arcu semper orci, quis sagittis eros quam nec ante.</p>
+
+<h2 id="umsetzungen">Umsetzungen</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris lacus, semper vel massa mattis, ullamcorper auctor libero. Maecenas sit amet ultricies erat. Curabitur eleifend est eget sagittis convallis. Mauris sit amet placerat lacus. Pellentesque vehicula quis massa ac lacinia. Vivamus gravida bibendum tincidunt. Sed eget augue vitae ligula ultricies lacinia a eget augue. Donec vulputate metus ut ante scelerisque sollicitudin. Nullam commodo suscipit venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut tristique pharetra mollis.</p>
+
+<p>Praesent ut accumsan mauris. Maecenas tempus finibus lectus, in iaculis mauris lobortis ac. Proin ipsum erat, imperdiet at arcu a, egestas hendrerit turpis. Suspendisse in lectus lacinia, sollicitudin felis non, auctor urna. Ut lacinia, ligula a cursus fringilla, diam arcu semper orci, quis sagittis eros quam nec ante.</p>
+<h3 id="diy-hub">DIY-Hub</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris lacus, semper vel massa mattis, ullamcorper auctor libero. Maecenas sit amet ultricies erat. Curabitur eleifend est eget sagittis convallis. Mauris sit amet placerat lacus. Pellentesque vehicula quis massa ac lacinia. Vivamus gravida bibendum tincidunt. Sed eget augue vitae ligula ultricies lacinia a eget augue. Donec vulputate metus ut ante scelerisque sollicitudin. Nullam commodo suscipit venenatis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut tristique pharetra mollis.</p>
+
+<p>Praesent ut accumsan mauris. Maecenas tempus finibus lectus, in iaculis mauris lobortis ac. Proin ipsum erat, imperdiet at arcu a, egestas hendrerit turpis. Suspendisse in lectus lacinia, sollicitudin felis non, auctor urna. Ut lacinia, ligula a cursus fringilla, diam arcu semper orci, quis sagittis eros quam nec ante.</p>
+
+        </div>
+    </div>
+
+    
+
+</div> 
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+        <footer class="footer is-hidden-print">
+    <div class="container">
+        
+        
+        <div class="columns is-multiline">
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/contact/" class="link">Kontakt</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/about_platform/" class="link">Über die Plattform</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.th-koeln.de/hochschule/impressum_8159.php" class="link">Impressum</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.th-koeln.de/hochschule/haftungshinweis_8277.php" class="link">Haftungshinweis</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.th-koeln.de/hochschule/datenschutzhinweis_8279.php" class="link">Datenschutzhinweis</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+        <div class="content is-small has-text-centered">
+            <p class="">Theme is based on Bulma Clean Theme from <a href="https://www.csrhymes.com">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
+
+
