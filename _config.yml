@@ -1,11 +1,20 @@
+# ----------------------------------- Basic ---------------------------------- #
+
 title: Start
 email: intia@th-koeln.de
 description: >- # this means to ignore newlines until "baseurl:"
   A plattform for methods, techniques, toolkits and patterns for participative development in a social context.
 baseurl: ""
 url: ""
+
+# ----------------------------------- Theme ---------------------------------- #
+
 theme: null
-# Build settings
+footer_menu: footer
+
+# ---------------------------------- Plugins --------------------------------- #
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -17,8 +26,13 @@ github: [metadata]
 sass:
   style: compressed
 
-## Content Settings
-# Default frontmatter
+# Pagination
+paginate: 3
+paginate_path: "/stories/page:num"
+
+# ------------------------- Defaults and Collections ------------------------- #
+
+# Defaults
 defaults:
   - scope:
       type: posts
@@ -38,11 +52,7 @@ defaults:
       layout: page
       show_sidebar: true
 
-paginate: 3
-paginate_path: "/stories/page:num"
-
-footer_menu: footer
-
+# Collections
 collections_dir: collections
 collections:
   building_blocks:
@@ -54,3 +64,22 @@ collections:
   glossary:
     output: true
     show_sidebar: false
+
+# --------------------------- Includes and Excludes -------------------------- #
+
+# Include
+include:
+  - CNAME
+
+# Exclude from processing.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
