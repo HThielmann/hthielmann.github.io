@@ -2,12 +2,7 @@
 title: ICF
 published: true
 layout: page
-synonyms:
-    - Alltagsunterstützung
-    - Bewältigung von Alltagsaufgaben
-    - Alltagsbegleitung
-    - alltägliche Lebensführung
-description: |
+abstract: |
     Rahmenwerk, das eine einheitliche Sprache und konzeptionelle Grundlage für die Definition und Messung von Gesundheit und Behinderung liefert.
 ---
 

@@ -7,7 +7,7 @@ synonyms:
     - Bewältigung von Alltagsaufgaben
     - Alltagsbegleitung
     - alltägliche Lebensführung
-description: |
+abstract: |
     Aufgabe Sozialer Arbeit ist es, die Adressat*innen bei der Ermöglichung eines gelingenden Alltags zu unterstützen. Alltagsbewältigung umfasst dabei die Bewältigung alltäglicher Lebensführung.
 ---
 

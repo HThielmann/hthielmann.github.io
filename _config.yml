@@ -22,6 +22,21 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-relative-links
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-commonmark
+  - jekyll-commonmark-ghpages
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-sass-converter
+  - jekyll-titles-from-headings
+  - jekyll-watch
 github: [metadata]
 sass:
   style: compressed

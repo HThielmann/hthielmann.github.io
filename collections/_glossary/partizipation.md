@@ -9,7 +9,7 @@ synonyms:
       - Mitwirkung
       - Mitbestimmung
       - Beteiligung
-description: |
+abstract: |
       Partizipation bedeutet, dass Individuen an Entscheidungen mitwirken können und das Ergebnis dadurch beeinflussen können.
 ---
 

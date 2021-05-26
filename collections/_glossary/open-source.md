@@ -2,7 +2,7 @@
 title: Open Source
 published: true
 layout: page
-description: |
+abstract: |
     Ein Projekt ist Open-Source, wenn es der Gemeinschaft öffentlich zugänglich gemacht ist und die Definition der Open Source Initiative erfüllt. Jede Person oder Organisation kann ein solches Projekt erkunden, nutzen, verändern, und weiterverteilen solange diese in Einklang mit der gesetzten Open-Source-Lizenz handelt.
 ---
 

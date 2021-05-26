@@ -4,7 +4,7 @@ published: true
 layout: page
 old_names:
     - Laborkoffer
-description: |
+abstract: |
     Eine Ansammlung von Material, in einem mobilen Format, zur Unterstützung der Bedarfserhebung und Ideenfindung.
 ---
 
